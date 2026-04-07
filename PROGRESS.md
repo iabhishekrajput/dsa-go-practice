@@ -14,8 +14,8 @@
 - [x] Day 2: Arrays — the building block
 - [x] Day 3: Arrays — sliding window & two pointers
 - [x] Day 4: Strings — manipulation & pattern problems
-- [ ] Day 5: Hash Maps — your secret weapon
-- [ ] Day 6: Hash Maps — frequency counting & grouping
+- [x] Day 5: Hash Maps — your secret weapon (combined with Day 6)
+- [x] Day 6: Hash Maps — frequency counting & grouping
 - [ ] Day 7: Practice day — mixed problems
 - [ ] Day 8: Linked Lists — why they exist
 - [ ] Day 9: Linked Lists — reversal, cycle detection
@@ -90,3 +90,12 @@
   7. Reverse Words in a String (compact + reverse, reused slow/fast pointer)
   8. Valid Anagram (frequency counting with map)
 - **Notes:** Palindrome solved first try. Reverse Words needed a fix on the compaction logic — recognized the slow/fast pointer pattern from Day 2. Anagram clean on first attempt.
+
+### Day 5-6 — 2026-04-07 — Hash Maps: Grouping, Frequency & Sets
+- **Status:** COMPLETED
+- **Topics:** Grouping by computed key, frequency counting + sort, hash set for O(n) lookup
+- **Problems solved:** 3/3
+  9. Group Anagrams (sorted string as map key)
+  10. Top K Frequent Elements (frequency map + sort unique keys)
+  11. Longest Consecutive Sequence (hash set, only count from sequence starts)
+- **Notes:** Common mistake on sort comparator (comparing indices vs values). Learned to work with unique keys from map, not raw input with duplicates. Used idiomatic map[int]struct{} for sets.
