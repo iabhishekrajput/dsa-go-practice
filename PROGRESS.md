@@ -19,7 +19,7 @@
 - [x] Day 7: Practice day — mixed problems
 - [x] Day 8: Linked Lists — why they exist (combined with Day 9)
 - [x] Day 9: Linked Lists — reversal, cycle detection
-- [ ] Day 10: Stacks — LIFO magic
+- [x] Day 10: Stacks — LIFO magic
 - [ ] Day 11: Queues — FIFO & variations
 - [ ] Day 12: Stacks & Queues — real-world problems
 - [ ] Day 13-14: Week 2 practice & review
@@ -117,3 +117,12 @@
   16. Linked List Cycle Detection (Floyd's tortoise & hare)
   17. Merge Two Sorted Lists (dummy node + zipper merge)
 - **Notes:** Small bug returning curr instead of prev on reversal. Learned to check fast.Next != nil for safety in cycle detection. Used new nodes instead of rewiring in merge — learned to prefer rewiring for O(1) space.
+
+### Day 10 — 2026-04-07 — Stacks: LIFO Magic
+- **Status:** COMPLETED
+- **Topics:** Stack basics, bracket matching, min tracking, monotonic stack
+- **Problems solved:** 3/3
+  18. Valid Parentheses (stack + closing→opening map)
+  19. Min Stack (parallel min stack tracking)
+  20. Daily Temperatures (monotonic stack — "next greater element" pattern)
+- **Notes:** Learned make([]T, n) vs make([]T, 0, n) gotcha. Min Stack solved first try. Daily Temperatures needed help — key insight: result[top]=i-top, not result[i]. Monotonic stack is a new pattern to internalize.
