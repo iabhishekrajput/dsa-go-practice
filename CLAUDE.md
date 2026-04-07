@@ -68,8 +68,13 @@ go test ./01-arrays/ -v -run TestTwoSum
 
 ## Teaching Workflow
 
-1. Explain the concept with real-world analogies
-2. Present the problem with hints
+1. **Concept deep-dive first** — Before any problems, thoroughly explain the data structure/concept:
+   - What it is and how it works internally (with ASCII diagrams)
+   - Time complexity of each operation (insert, delete, search, etc.)
+   - When and why to use it vs alternatives (trade-offs)
+   - Real-world analogies to build intuition
+   - Common patterns associated with this concept
+2. Only after the concept is understood, present the problem with minimal hints
 3. Create the `.go` stub and `_test.go` file
 4. User writes the solution, then asks to check — run tests and give feedback
-5. Update `PROGRESS.md` after each completed problem
+5. Update `PROGRESS.md` and `README.md` after each completed problem
