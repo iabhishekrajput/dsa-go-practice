@@ -17,8 +17,8 @@
 - [x] Day 5: Hash Maps — your secret weapon (combined with Day 6)
 - [x] Day 6: Hash Maps — frequency counting & grouping
 - [x] Day 7: Practice day — mixed problems
-- [ ] Day 8: Linked Lists — why they exist
-- [ ] Day 9: Linked Lists — reversal, cycle detection
+- [x] Day 8: Linked Lists — why they exist (combined with Day 9)
+- [x] Day 9: Linked Lists — reversal, cycle detection
 - [ ] Day 10: Stacks — LIFO magic
 - [ ] Day 11: Queues — FIFO & variations
 - [ ] Day 12: Stacks & Queues — real-world problems
@@ -108,3 +108,12 @@
   13. Intersection of Two Arrays (frequency counting)
   14. Best Time to Buy and Sell Stock (running minimum + max profit)
 - **Notes:** Correctly identified slow/fast for Move Zeroes without hints. Needed a walkthrough on Buy/Sell Stock — learned the "track min so far" technique.
+
+### Day 8-9 — 2026-04-07 — Linked Lists: Fundamentals
+- **Status:** COMPLETED
+- **Topics:** Linked list reversal, cycle detection (Floyd's), merge sorted lists, dummy node pattern
+- **Problems solved:** 3/3
+  15. Reverse Linked List (prev/curr/next pointer flip)
+  16. Linked List Cycle Detection (Floyd's tortoise & hare)
+  17. Merge Two Sorted Lists (dummy node + zipper merge)
+- **Notes:** Small bug returning curr instead of prev on reversal. Learned to check fast.Next != nil for safety in cycle detection. Used new nodes instead of rewiring in merge — learned to prefer rewiring for O(1) space.
