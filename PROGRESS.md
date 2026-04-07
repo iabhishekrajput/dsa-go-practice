@@ -20,7 +20,7 @@
 - [x] Day 8: Linked Lists — why they exist (combined with Day 9)
 - [x] Day 9: Linked Lists — reversal, cycle detection
 - [x] Day 10: Stacks — LIFO magic
-- [ ] Day 11: Queues — FIFO & variations
+- [x] Day 11: Queues — FIFO & variations
 - [ ] Day 12: Stacks & Queues — real-world problems
 - [ ] Day 13-14: Week 2 practice & review
 
@@ -126,3 +126,12 @@
   19. Min Stack (parallel min stack tracking)
   20. Daily Temperatures (monotonic stack — "next greater element" pattern)
 - **Notes:** Learned make([]T, n) vs make([]T, 0, n) gotcha. Min Stack solved first try. Daily Temperatures needed help — key insight: result[top]=i-top, not result[i]. Monotonic stack is a new pattern to internalize.
+
+### Day 11 — 2026-04-07 — Queues: FIFO & Variations
+- **Status:** COMPLETED
+- **Topics:** Queue concept deep-dive, queue using stacks, monotonic deque, frequency + queue combo
+- **Problems solved:** 3/3
+  21. Queue Using Stacks (two-stack pour pattern)
+  22. Sliding Window Maximum (monotonic deque — hard)
+  23. First Unique Character (frequency map + queue)
+- **Notes:** Forgot to clear inStack after pouring in queue-using-stacks. Sliding Window Max needed help with indices-vs-values confusion — same lesson as Daily Temperatures. First Unique done cleanly first try.
