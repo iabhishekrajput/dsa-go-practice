@@ -16,7 +16,7 @@
 - [x] Day 4: Strings — manipulation & pattern problems
 - [x] Day 5: Hash Maps — your secret weapon (combined with Day 6)
 - [x] Day 6: Hash Maps — frequency counting & grouping
-- [ ] Day 7: Practice day — mixed problems
+- [x] Day 7: Practice day — mixed problems
 - [ ] Day 8: Linked Lists — why they exist
 - [ ] Day 9: Linked Lists — reversal, cycle detection
 - [ ] Day 10: Stacks — LIFO magic
@@ -99,3 +99,12 @@
   10. Top K Frequent Elements (frequency map + sort unique keys)
   11. Longest Consecutive Sequence (hash set, only count from sequence starts)
 - **Notes:** Common mistake on sort comparator (comparing indices vs values). Learned to work with unique keys from map, not raw input with duplicates. Used idiomatic map[int]struct{} for sets.
+
+### Day 7 — 2026-04-07 — Practice Day: Mixed Problems
+- **Status:** COMPLETED
+- **Topics:** Slow/fast pointer, frequency map intersection, running min/max
+- **Problems solved:** 3/3
+  12. Move Zeroes (slow/fast pointer — identified pattern independently)
+  13. Intersection of Two Arrays (frequency counting)
+  14. Best Time to Buy and Sell Stock (running minimum + max profit)
+- **Notes:** Correctly identified slow/fast for Move Zeroes without hints. Needed a walkthrough on Buy/Sell Stock — learned the "track min so far" technique.
