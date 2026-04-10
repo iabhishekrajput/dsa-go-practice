@@ -21,7 +21,7 @@
 - [x] Day 9: Linked Lists — reversal, cycle detection
 - [x] Day 10: Stacks — LIFO magic
 - [x] Day 11: Queues — FIFO & variations
-- [ ] Day 12: Stacks & Queues — real-world problems
+- [x] Day 12: Stacks & Queues — real-world problems
 - [ ] Day 13-14: Week 2 practice & review
 
 ### Phase 2: Trees & Recursion (Week 3-4)
@@ -135,3 +135,12 @@
   22. Sliding Window Maximum (monotonic deque — hard)
   23. First Unique Character (frequency map + queue)
 - **Notes:** Forgot to clear inStack after pouring in queue-using-stacks. Sliding Window Max needed help with indices-vs-values confusion — same lesson as Daily Temperatures. First Unique done cleanly first try.
+
+### Day 12 — 2026-04-10 — Stacks & Queues: Real-World Problems
+- **Status:** COMPLETED
+- **Topics:** Expression evaluation, ring buffer design, stack simulation
+- **Problems solved:** 3/3
+  24. Evaluate Reverse Polish Notation (stack as accumulator — operand order gotcha)
+  25. Circular Queue / Ring Buffer (modular arithmetic, pointer semantics)
+  26. Asteroid Collision (stack simulation with chain reactions)
+- **Notes:** RPN had two bugs: inverted error check and swapped operand order. Circular queue off-by-one from advancing rear before writing. Asteroid collision needed guard for same-direction asteroids and survival tracking for left-movers that clear the stack.
