@@ -22,7 +22,7 @@
 - [x] Day 10: Stacks — LIFO magic
 - [x] Day 11: Queues — FIFO & variations
 - [x] Day 12: Stacks & Queues — real-world problems
-- [ ] Day 13-14: Week 2 practice & review
+- [x] Day 13-14: Week 2 practice & review
 
 ### Phase 2: Trees & Recursion (Week 3-4)
 - [ ] Recursion — thinking backwards
@@ -144,3 +144,12 @@
   25. Circular Queue / Ring Buffer (modular arithmetic, pointer semantics)
   26. Asteroid Collision (stack simulation with chain reactions)
 - **Notes:** RPN had two bugs: inverted error check and swapped operand order. Circular queue off-by-one from advancing rear before writing. Asteroid collision needed guard for same-direction asteroids and survival tracking for left-movers that clear the stack.
+
+### Day 13 — 2026-04-10 — Week 2 Practice & Review
+- **Status:** COMPLETED
+- **Topics:** Monotonic stack + hash map combo, nested stack decoding, array reversal trick
+- **Problems solved:** 3/3
+  27. Next Greater Element (monotonic stack + map lookup — solved first try)
+  28. Decode String (stack of string/count frames — rune-to-int bug with `int(currChar)` vs `currChar - '0'`)
+  29. Rotate Array (three-reversal pattern — solved first try)
+- **Notes:** Pattern recognition is strong — Next Greater Element and Rotate Array both solved cleanly on first attempt. Decode String had a subtle rune-to-digit conversion bug. Phase 1 Foundations complete!
