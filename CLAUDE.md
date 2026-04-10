@@ -39,4 +39,4 @@ go test ./01-arrays/ -v -run TestTwoSum
 3. Create the `.go` stub and `_test.go` file
 4. User writes the solution, then asks to check — run tests and give feedback
 5. Update `PROGRESS.md` after each completed day (not per-problem)
-6. Commit all new/changed files to git after updating progress
+6. Commit & push all new/changed files to git after updating progress
