@@ -26,7 +26,7 @@
 
 ### Phase 2: Trees & Recursion (Week 3-4)
 - [x] Recursion — thinking backwards
-- [ ] Binary Trees — traversals (BFS, DFS)
+- [x] Binary Trees — traversals (BFS, DFS)
 - [ ] Binary Search Trees
 - [ ] Tree problems — depth, path, LCA
 - [ ] Heaps / Priority Queues
@@ -162,3 +162,12 @@
   31. Reverse Linked List Recursive (head.Next.Next rewire — initially attached to newHead instead of tail)
   32. Merge Sort (divide-and-conquer with two-pointer merge — solved first try)
 - **Notes:** Power and Merge Sort solved cleanly on first attempt. Recursive reversal tripped on confusing newHead (always the last node) with the tail of the reversed portion — key insight is that head.Next still points to the right node after recursion.
+
+### Day 15 — 2026-04-11 — Binary Trees: Traversals (BFS, DFS)
+- **Status:** COMPLETED
+- **Topics:** DFS vs BFS concept deep-dive, inorder traversal, level-order (BFS), recursive depth calculation
+- **Problems solved:** 3/3
+  33. Inorder Traversal (recursive Left→Root→Right with slice concat — solved first try)
+  34. Level Order Traversal (BFS with queue, level-size snapshot trick — solved first try)
+  35. Maximum Depth (postorder pattern: 1 + max(left, right) — solved first try)
+- **Notes:** All three solved first try. DFS/BFS distinction clicked after side-by-side stack-vs-queue walkthrough. Used Go 1.22 range-over-int in BFS. Recursive tree thinking coming naturally from Day 14 foundation.
