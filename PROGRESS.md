@@ -27,7 +27,7 @@
 ### Phase 2: Trees & Recursion (Week 3-4)
 - [x] Recursion — thinking backwards
 - [x] Binary Trees — traversals (BFS, DFS)
-- [ ] Binary Search Trees
+- [x] Binary Search Trees
 - [ ] Tree problems — depth, path, LCA
 - [ ] Heaps / Priority Queues
 - [ ] Practice week
@@ -171,3 +171,12 @@
   34. Level Order Traversal (BFS with queue, level-size snapshot trick — solved first try)
   35. Maximum Depth (postorder pattern: 1 + max(left, right) — solved first try)
 - **Notes:** All three solved first try. DFS/BFS distinction clicked after side-by-side stack-vs-queue walkthrough. Used Go 1.22 range-over-int in BFS. Recursive tree thinking coming naturally from Day 14 foundation.
+
+### Day 16 — 2026-04-11 — Binary Search Trees
+- **Status:** COMPLETED
+- **Topics:** BST property, range validation, BST search, inorder = sorted order
+- **Problems solved:** 3/3
+  36. Validate BST (pass min/max range down — solved first try)
+  37. Search in BST (binary search on tree — solved first try)
+  38. Kth Smallest Element (inorder with pointer counter, early termination — solved first try)
+- **Notes:** All three first-try solves. Used optimal pointer-based counter for Kth Smallest instead of collecting full inorder. BST patterns feel natural — range narrowing for validation, directional search, inorder for sorted access.
