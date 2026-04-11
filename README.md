@@ -6,15 +6,17 @@ Comprehensive DSA implementations and problem solutions in Go, built from the gr
 
 | # | Topic | Problems | Key Patterns |
 |---|-------|----------|--------------|
-| 01 | [Arrays](01-arrays/) | 5 | Two pointers, sliding window (fixed & variable), hash map lookup |
+| 01 | [Arrays](01-arrays/) | 6 | Two pointers, sliding window (fixed & variable), hash map lookup, three-reversal |
 | 02 | [Strings](02-strings/) | 3 | Palindrome check, in-place reversal, frequency counting |
 | 03 | [Hash Maps](03-hashmaps/) | 3 | Grouping by computed key, top-K frequency, hash set for O(n) lookup |
 | 04 | [Practice](04-practice/) | 3 | Slow/fast pointer, running min/max, array intersection |
 | 05 | [Linked Lists](05-linkedlists/) | 3 | Pointer reversal, Floyd's cycle detection, dummy node merge |
-| 06 | [Stacks](06-stacks/) | 5 | Bracket matching, monotonic stack, min tracking, RPN evaluation, collision simulation |
+| 06 | [Stacks](06-stacks/) | 7 | Bracket matching, monotonic stack, min tracking, RPN evaluation, collision simulation |
 | 07 | [Queues](07-queues/) | 4 | Two-stack queue, monotonic deque, circular buffer (ring buffer) |
+| 08 | [Recursion](08-recursion/) | 3 | Fast exponentiation, recursive reversal, divide-and-conquer (merge sort) |
+| 09 | [Trees & BSTs](09-trees/) | 6 | DFS/BFS traversals, BST validation, inorder properties |
 
-**26 problems solved** across 7 topics.
+**38 problems solved** across 9 topics.
 
 ## Project Structure
 
@@ -23,6 +25,7 @@ dsa/
 ├── 01-arrays/
 │   ├── two_sum.go
 │   ├── two_sum_test.go
+│   ├── NOTES.md             # Revision notes for this topic
 │   └── ...
 ├── 02-strings/
 ├── 03-hashmaps/
@@ -30,13 +33,17 @@ dsa/
 ├── 05-linkedlists/
 ├── 06-stacks/
 ├── 07-queues/
-├── PROGRESS.md          # Curriculum roadmap & daily log
+├── 08-recursion/
+├── 09-trees/
+├── REVISION.md              # Index linking all topic notes
+├── PROGRESS.md              # Curriculum roadmap & daily log
 └── README.md
 ```
 
-Each problem consists of:
+Each topic directory contains:
 - **`problem.go`** — Solution implementation
 - **`problem_test.go`** — Test cases covering edge cases, boundary conditions, and common pitfalls
+- **`NOTES.md`** — Revision notes: complexity, patterns, gotchas
 
 ## Running Tests
 
@@ -62,7 +69,7 @@ The learning path follows a structured progression:
 5. **Dynamic Programming** — Memoization, tabulation, classic DP patterns
 6. **Advanced** — Tries, backtracking, greedy algorithms, bit manipulation
 
-Full roadmap and daily progress in [PROGRESS.md](PROGRESS.md).
+Full roadmap and daily progress in [PROGRESS.md](PROGRESS.md). For quick revision, see [REVISION.md](REVISION.md).
 
 ## Tech
 

@@ -25,6 +25,8 @@ go test ./01-arrays/ -v -run TestTwoSum
 - Each problem has two files: `problem_name.go` (solution) and `problem_name_test.go` (tests)
 - All files in a topic directory share the same package name (e.g., `package arrays`)
 - `PROGRESS.md` tracks the curriculum roadmap, daily log, and problems completed
+- `REVISION.md` is the index linking all topic revision notes
+- Each topic directory has a `NOTES.md` with patterns, complexity, gotchas, and problem summaries
 - `README.md` provides a quick overview of the repo structure and how to run tests
 
 ## Teaching Workflow
@@ -39,4 +41,8 @@ go test ./01-arrays/ -v -run TestTwoSum
 3. Create the `.go` stub and `_test.go` file
 4. User writes the solution, then asks to check — run tests and give feedback
 5. Update `PROGRESS.md` after each completed day (not per-problem)
-6. Commit & push all new/changed files to git after updating progress
+6. Create or update `NOTES.md` in the topic directory when a topic's problems are done:
+   - New topic: create from template (How It Works, Complexity, Patterns, Gotchas, Problem Summary)
+   - Existing topic: append new problems to the table, add any new patterns or gotchas
+   - Update `REVISION.md` at root if a new topic was added
+7. Commit & push all new/changed files to git after updating progress
