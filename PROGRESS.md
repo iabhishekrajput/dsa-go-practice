@@ -25,7 +25,7 @@
 - [x] Day 13-14: Week 2 practice & review
 
 ### Phase 2: Trees & Recursion (Week 3-4)
-- [ ] Recursion — thinking backwards
+- [x] Recursion — thinking backwards
 - [ ] Binary Trees — traversals (BFS, DFS)
 - [ ] Binary Search Trees
 - [ ] Tree problems — depth, path, LCA
@@ -153,3 +153,12 @@
   28. Decode String (stack of string/count frames — rune-to-int bug with `int(currChar)` vs `currChar - '0'`)
   29. Rotate Array (three-reversal pattern — solved first try)
 - **Notes:** Pattern recognition is strong — Next Greater Element and Rotate Array both solved cleanly on first attempt. Decode String had a subtle rune-to-digit conversion bug. Phase 1 Foundations complete!
+
+### Day 14 — 2026-04-11 — Recursion: Thinking Backwards
+- **Status:** COMPLETED
+- **Topics:** Fast exponentiation, recursive linked list reversal, divide-and-conquer (merge sort)
+- **Problems solved:** 3/3
+  30. Power Function (fast exponentiation O(log n) — solved first try)
+  31. Reverse Linked List Recursive (head.Next.Next rewire — initially attached to newHead instead of tail)
+  32. Merge Sort (divide-and-conquer with two-pointer merge — solved first try)
+- **Notes:** Power and Merge Sort solved cleanly on first attempt. Recursive reversal tripped on confusing newHead (always the last node) with the tail of the reversed portion — key insight is that head.Next still points to the right node after recursion.
