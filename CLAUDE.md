@@ -29,6 +29,10 @@ go test ./01-arrays/ -v -run TestTwoSum
 - Each topic directory has a `NOTES.md` with patterns, complexity, gotchas, and problem summaries
 - `README.md` provides a quick overview of the repo structure and how to run tests
 
+## Teaching Rules
+
+- **No pseudocode.** Never show algorithmic steps in code-like syntax. Explain concepts with plain English, ASCII diagrams, and worked examples only. Let the user figure out the implementation.
+
 ## Teaching Workflow
 
 1. **Concept deep-dive first** — Before any problems, thoroughly explain the data structure/concept:
