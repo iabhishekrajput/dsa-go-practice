@@ -28,7 +28,7 @@
 - [x] Recursion — thinking backwards
 - [x] Binary Trees — traversals (BFS, DFS)
 - [x] Binary Search Trees
-- [ ] Tree problems — depth, path, LCA
+- [x] Tree problems — depth, path, LCA
 - [ ] Heaps / Priority Queues
 - [ ] Practice week
 
@@ -180,3 +180,12 @@
   37. Search in BST (binary search on tree — solved first try)
   38. Kth Smallest Element (inorder with pointer counter, early termination — solved first try)
 - **Notes:** All three first-try solves. Used optimal pointer-based counter for Kth Smallest instead of collecting full inorder. BST patterns feel natural — range narrowing for validation, directional search, inorder for sorted access.
+
+### Day 17 — 2026-04-12 — Tree Problems: Depth, Path, LCA
+- **Status:** COMPLETED
+- **Topics:** Mirror comparison, carry-state-down recursion, postorder bubbling for LCA
+- **Problems solved:** 3/3
+  39. Symmetric Tree (parallel subtree mirror check — solved first try)
+  40. Path Sum (subtract-as-you-go, check at leaf — solved first try)
+  41. Lowest Common Ancestor (postorder: both sides non-nil = LCA — solved first try)
+- **Notes:** All three first-try solves. Symmetric tree combined nil checks cleanly into one condition. Path Sum correctly identified leaf-only check. LCA pattern is elegant — the split detection via left/right non-nil is the key insight.

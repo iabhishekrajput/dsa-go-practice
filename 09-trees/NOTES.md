@@ -67,6 +67,25 @@ For every node: **all left subtree values < node < all right subtree values**. T
 - **How it works:** Inorder traversal of BST visits nodes in ascending order
 - **Watch for:** For kth smallest, use a pointer-based counter (`*int`) with early termination instead of collecting the full slice — stops as soon as kth node is visited
 
+---
+
+## Tree Problem Patterns
+
+### Mirror/Symmetry Check
+- **When to use:** Check if a tree is symmetric, or compare two subtrees
+- **How it works:** Compare two nodes in parallel — outer children mirror outer, inner children mirror inner
+- **Watch for:** Three base cases: both nil (true), one nil (false), values differ (false)
+
+### Carry State Downward (Path Sum)
+- **When to use:** Root-to-leaf path problems — sum, path collection, constraints
+- **How it works:** Subtract/accumulate as you recurse down, check condition at leaf nodes only
+- **Watch for:** Leaf = both children nil. A node with one child is NOT a leaf — don't check the sum there
+
+### Lowest Common Ancestor (Postorder Bubbling)
+- **When to use:** Find deepest shared ancestor of two nodes
+- **How it works:** Recurse both subtrees. If both return non-nil, current node is the LCA. If only one side returns non-nil, bubble that up
+- **Watch for:** A node can be its own ancestor (if p is ancestor of q, LCA is p)
+
 ## Gotchas & Lessons Learned
 - DFS vs BFS: DFS uses stack (call stack or explicit), BFS uses queue. Not new algorithms — just stack vs queue applied to tree exploration
 - Level-order grouping: must snapshot queue length before processing — without it, newly enqueued children mix into the current level
@@ -84,3 +103,6 @@ For every node: **all left subtree values < node < all right subtree values**. T
 | 36 | Validate BST | Range narrowing | Pass (min, max), narrow on each step | Check all ancestors, not just parent |
 | 37 | Search in BST | BST binary search | Equal→found, less→left, greater→right | Return subtree, not just boolean |
 | 38 | Kth Smallest in BST | Inorder + counter | Inorder with `*int` counter, stop at k=0 | Pointer counter for early termination |
+| 39 | Symmetric Tree | Mirror check | Compare two subtrees: outer↔outer, inner↔inner | Three base cases: both nil, one nil, values differ |
+| 40 | Path Sum | Carry state down | Subtract as you go, check remaining==val at leaf | Leaf = both children nil, not just one |
+| 41 | Lowest Common Ancestor | Postorder bubbling | Recurse both sides; both non-nil = LCA | Node can be its own ancestor |
