@@ -33,7 +33,7 @@
 - [x] Practice week
 
 ### Phase 3: Searching & Sorting (Week 5)
-- [ ] Binary Search — beyond sorted arrays
+- [x] Binary Search — beyond sorted arrays
 - [ ] Sorting algorithms & when to use what
 - [ ] Practice problems
 
@@ -207,3 +207,12 @@
   46. Merge K Sorted Lists (min-heap of size K + dummy node — initial O(N log N) version worked, optimized to O(N log K) by only keeping K heads in heap)
   47. Binary Tree Right Side View (BFS level-order, take last element per level — solved first try)
 - **Notes:** All three first-try solves. 18-problem first-try streak across Days 15-19. Merge K Lists combined linked list patterns (dummy node) with heap (min-heap of K heads) — first multi-topic problem. Right Side View reused Level Order BFS pattern cleanly. Phase 2 Trees & Recursion complete!
+
+### Day 20 — 2026-04-12 — Binary Search: Beyond Sorted Arrays
+- **Status:** COMPLETED
+- **Topics:** Classic binary search, boundary search, insertion point
+- **Problems solved:** 3/3
+  48. Binary Search (classic find target in sorted array — solved first try)
+  49. First Bad Version (boundary search: find first true in false/true sequence — solved first try)
+  50. Search Insert Position (find index or insertion point — solved first try)
+- **Notes:** All three first-try solves. 21-problem first-try streak across Days 15-20. All three problems share the same half-open interval skeleton — the pattern is clicking. Consistent use of `left + (right-left)/2` to avoid overflow.
