@@ -29,7 +29,7 @@
 - [x] Binary Trees — traversals (BFS, DFS)
 - [x] Binary Search Trees
 - [x] Tree problems — depth, path, LCA
-- [ ] Heaps / Priority Queues
+- [x] Heaps / Priority Queues
 - [ ] Practice week
 
 ### Phase 3: Searching & Sorting (Week 5)
@@ -189,3 +189,12 @@
   40. Path Sum (subtract-as-you-go, check at leaf — solved first try)
   41. Lowest Common Ancestor (postorder: both sides non-nil = LCA — solved first try)
 - **Notes:** All three first-try solves. Symmetric tree combined nil checks cleanly into one condition. Path Sum correctly identified leaf-only check. LCA pattern is elegant — the split detection via left/right non-nil is the key insight.
+
+### Day 18 — 2026-04-12 — Heaps / Priority Queues
+- **Status:** COMPLETED
+- **Topics:** Heap internals, min/max heap, generic heap with Entry[T], top-K pattern, simulation with heap
+- **Problems solved:** 3/3
+  42. Kth Largest Element (min-heap of size K — solved first try)
+  43. Last Stone Weight (max-heap simulation — solved first try)
+  44. Top K Frequent Elements (frequency map + min-heap of size K — solved first try)
+- **Notes:** All three first-try solves. Built heap from scratch instead of using container/heap — then refactored into generic `Heap[T]` with `Entry[T]{Priority, Value}` and `PeekPriority()`. Revisited Top K Frequent from Day 5 (sort) with heap approach (O(n log k) vs O(n log n)). 15-problem first-try streak across Days 15-18.

@@ -14,9 +14,10 @@ Quick-reference notes for interview prep, organized by topic. Each file has: how
 | 06 | Stacks | [Notes](06-stacks/NOTES.md) | 7 |
 | 07 | Queues | [Notes](07-queues/NOTES.md) | 4 |
 | 08 | Recursion | [Notes](08-recursion/NOTES.md) | 3 |
-| 09 | Trees & BSTs | [Notes](09-trees/NOTES.md) | 6 |
+| 09 | Trees & BSTs | [Notes](09-trees/NOTES.md) | 9 |
+| 10 | Heaps / Priority Queues | [Notes](10-heaps/NOTES.md) | 3 |
 
-**Total: 38 problems across 9 topics**
+**Total: 44 problems across 10 topics**
 
 ## Cross-Cutting Patterns
 
@@ -32,3 +33,5 @@ Patterns that appear across multiple topics — recognizing these is the real in
 | Divide and conquer | Recursion (merge sort), Trees (subtree problems) |
 | Indices vs values | Stacks (monotonic), Queues (deque) — store indices, compare via array lookup |
 | Postorder aggregation | Trees (depth, size), Recursion (children answer before parent) |
+| Top-K with heap | Heaps (kth largest, top K frequent) — min-heap of size K as gatekeeper |
+| Frequency map + heap | Hash Maps (count) + Heaps (select) — O(n log k) vs O(n log n) sort |
