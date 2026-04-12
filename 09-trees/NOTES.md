@@ -106,3 +106,5 @@ For every node: **all left subtree values < node < all right subtree values**. T
 | 39 | Symmetric Tree | Mirror check | Compare two subtrees: outer↔outer, inner↔inner | Three base cases: both nil, one nil, values differ |
 | 40 | Path Sum | Carry state down | Subtract as you go, check remaining==val at leaf | Leaf = both children nil, not just one |
 | 41 | Lowest Common Ancestor | Postorder bubbling | Recurse both sides; both non-nil = LCA | Node can be its own ancestor |
+| 45 | Invert Binary Tree | Preorder recursion | Swap left/right, recurse children | One-liner possible — don't overthink |
+| 47 | Binary Tree Right Side View | BFS level-order | Queue + level-size snapshot, take last per level | Left-deeper trees — rightmost isn't always a right child |

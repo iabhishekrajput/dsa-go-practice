@@ -14,10 +14,11 @@ Quick-reference notes for interview prep, organized by topic. Each file has: how
 | 06 | Stacks | [Notes](06-stacks/NOTES.md) | 7 |
 | 07 | Queues | [Notes](07-queues/NOTES.md) | 4 |
 | 08 | Recursion | [Notes](08-recursion/NOTES.md) | 3 |
-| 09 | Trees & BSTs | [Notes](09-trees/NOTES.md) | 9 |
+| 09 | Trees & BSTs | [Notes](09-trees/NOTES.md) | 11 |
 | 10 | Heaps / Priority Queues | [Notes](10-heaps/NOTES.md) | 3 |
+| 11 | Practice (Phase 2) | [Notes](11-practice/NOTES.md) | 3 |
 
-**Total: 44 problems across 10 topics**
+**Total: 47 problems across 11 topics**
 
 ## Cross-Cutting Patterns
 

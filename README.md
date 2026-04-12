@@ -14,9 +14,11 @@ Comprehensive DSA implementations and problem solutions in Go, built from the gr
 | 06 | [Stacks](06-stacks/) | 7 | Bracket matching, monotonic stack, min tracking, RPN evaluation, collision simulation |
 | 07 | [Queues](07-queues/) | 4 | Two-stack queue, monotonic deque, circular buffer (ring buffer) |
 | 08 | [Recursion](08-recursion/) | 3 | Fast exponentiation, recursive reversal, divide-and-conquer (merge sort) |
-| 09 | [Trees & BSTs](09-trees/) | 6 | DFS/BFS traversals, BST validation, inorder properties |
+| 09 | [Trees & BSTs](09-trees/) | 11 | DFS/BFS traversals, BST validation, inorder properties, LCA, right side view |
+| 10 | [Heaps](10-heaps/) | 3 | Top-K with min-heap, max-heap simulation, frequency + heap combo |
+| 11 | [Practice](11-practice/) | 3 | Multi-topic: heap + linked list merge, tree recursion, BFS application |
 
-**38 problems solved** across 9 topics.
+**47 problems solved** across 11 topics.
 
 ## Project Structure
 
@@ -35,6 +37,8 @@ dsa/
 ├── 07-queues/
 ├── 08-recursion/
 ├── 09-trees/
+├── 10-heaps/
+├── 11-practice/
 ├── REVISION.md              # Index linking all topic notes
 ├── PROGRESS.md              # Curriculum roadmap & daily log
 └── README.md

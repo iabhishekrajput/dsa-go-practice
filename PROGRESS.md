@@ -30,7 +30,7 @@
 - [x] Binary Search Trees
 - [x] Tree problems — depth, path, LCA
 - [x] Heaps / Priority Queues
-- [ ] Practice week
+- [x] Practice week
 
 ### Phase 3: Searching & Sorting (Week 5)
 - [ ] Binary Search — beyond sorted arrays
@@ -198,3 +198,12 @@
   43. Last Stone Weight (max-heap simulation — solved first try)
   44. Top K Frequent Elements (frequency map + min-heap of size K — solved first try)
 - **Notes:** All three first-try solves. Built heap from scratch instead of using container/heap — then refactored into generic `Heap[T]` with `Entry[T]{Priority, Value}` and `PeekPriority()`. Revisited Top K Frequent from Day 5 (sort) with heap approach (O(n log k) vs O(n log n)). 15-problem first-try streak across Days 15-18.
+
+### Day 19 — 2026-04-12 — Phase 2 Practice Week
+- **Status:** COMPLETED
+- **Topics:** Tree recursion, heap + linked list combo, BFS level-order application
+- **Problems solved:** 3/3
+  45. Invert Binary Tree (preorder swap left/right recursively — solved first try, then refactored to elegant single-expression version)
+  46. Merge K Sorted Lists (min-heap of size K + dummy node — initial O(N log N) version worked, optimized to O(N log K) by only keeping K heads in heap)
+  47. Binary Tree Right Side View (BFS level-order, take last element per level — solved first try)
+- **Notes:** All three first-try solves. 18-problem first-try streak across Days 15-19. Merge K Lists combined linked list patterns (dummy node) with heap (min-heap of K heads) — first multi-topic problem. Right Side View reused Level Order BFS pattern cleanly. Phase 2 Trees & Recursion complete!
