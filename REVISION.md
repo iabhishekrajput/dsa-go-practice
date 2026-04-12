@@ -17,8 +17,9 @@ Quick-reference notes for interview prep, organized by topic. Each file has: how
 | 08 | Trees & BSTs | [Notes](08-trees/NOTES.md) | 11 |
 | 09 | Heaps / Priority Queues | [Notes](09-heaps/NOTES.md) | 3 |
 | 10 | Binary Search | [Notes](10-binarysearch/NOTES.md) | 3 |
+| 11 | Sorting | [Notes](11-sorting/NOTES.md) | 3 |
 
-**Total: 50 problems across 11 topics**
+**Total: 53 problems across 12 topics**
 
 ## Cross-Cutting Patterns
 

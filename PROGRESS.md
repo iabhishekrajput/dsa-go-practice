@@ -34,7 +34,7 @@
 
 ### Phase 3: Searching & Sorting (Week 5)
 - [x] Binary Search — beyond sorted arrays
-- [ ] Sorting algorithms & when to use what
+- [x] Sorting algorithms & when to use what
 - [ ] Practice problems
 
 ### Phase 4: Graphs (Week 6-7)
@@ -216,3 +216,12 @@
   49. First Bad Version (boundary search: find first true in false/true sequence — solved first try)
   50. Search Insert Position (find index or insertion point — solved first try)
 - **Notes:** All three first-try solves. 21-problem first-try streak across Days 15-20. All three problems share the same half-open interval skeleton — the pattern is clicking. Consistent use of `left + (right-left)/2` to avoid overflow.
+
+### Day 21 — 2026-04-13 — Sorting Algorithms & When to Use What
+- **Status:** COMPLETED
+- **Topics:** Quick sort (random pivot, Hoare partition), Dutch National Flag, sorting as preprocessing
+- **Problems solved:** 3/3
+  51. Quick Sort (Hoare partition + random pivot — first try with fixed pivot, added randomization, hit swap-after-move bug, fixed by swapping pivot to low first)
+  52. Sort Colors / Dutch National Flag (three-pointer single pass — solved first try)
+  53. Merge Intervals (custom quick sort + merge scan — merge loop had 4 bugs: dropped last interval, strict vs >=, bounds check order, overwrite vs max)
+- **Notes:** Built quick sort from scratch with random pivot. Sort Colors was clean — three-pointer partition is elegant. Merge Intervals tested both sorting and scanning — wrote custom quick sort for intervals instead of using sort.Slice. Phase 3 Searching & Sorting complete!

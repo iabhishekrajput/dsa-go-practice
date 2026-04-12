@@ -17,8 +17,9 @@ Comprehensive DSA implementations and problem solutions in Go, built from the gr
 | 08 | [Trees & BSTs](08-trees/) | 11 | DFS/BFS traversals, BST validation, inorder properties, LCA, right side view |
 | 09 | [Heaps](09-heaps/) | 3 | Top-K with min-heap, max-heap simulation, frequency + heap combo |
 | 10 | [Binary Search](10-binarysearch/) | 3 | Exact match, boundary search, insertion point |
+| 11 | [Sorting](11-sorting/) | 3 | Quick sort, Dutch National Flag, sort-then-scan |
 
-**50 problems solved** across 11 topics.
+**53 problems solved** across 12 topics.
 
 ## Project Structure
 
@@ -39,6 +40,7 @@ dsa/
 ├── 08-trees/
 ├── 09-heaps/
 ├── 10-binarysearch/
+├── 11-sorting/
 ├── REVISION.md              # Index linking all topic notes
 ├── PROGRESS.md              # Curriculum roadmap & daily log
 └── README.md
