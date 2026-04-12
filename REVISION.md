@@ -6,19 +6,18 @@ Quick-reference notes for interview prep, organized by topic. Each file has: how
 
 | # | Topic | Notes | Problems |
 |---|-------|-------|----------|
+| 00 | Practice | [Notes](00-practice/NOTES.md) | 4 |
 | 01 | Arrays | [Notes](01-arrays/NOTES.md) | 6 |
 | 02 | Strings | [Notes](02-strings/NOTES.md) | 3 |
 | 03 | Hash Maps | [Notes](03-hashmaps/NOTES.md) | 3 |
-| 04 | Practice | [Notes](04-practice/NOTES.md) | 3 |
-| 05 | Linked Lists | [Notes](05-linkedlists/NOTES.md) | 3 |
-| 06 | Stacks | [Notes](06-stacks/NOTES.md) | 7 |
-| 07 | Queues | [Notes](07-queues/NOTES.md) | 4 |
-| 08 | Recursion | [Notes](08-recursion/NOTES.md) | 3 |
-| 09 | Trees & BSTs | [Notes](09-trees/NOTES.md) | 11 |
-| 10 | Heaps / Priority Queues | [Notes](10-heaps/NOTES.md) | 3 |
-| 11 | Practice (Phase 2) | [Notes](11-practice/NOTES.md) | 3 |
+| 04 | Linked Lists | [Notes](04-linkedlists/NOTES.md) | 3 |
+| 05 | Stacks | [Notes](05-stacks/NOTES.md) | 7 |
+| 06 | Queues | [Notes](06-queues/NOTES.md) | 4 |
+| 07 | Recursion | [Notes](07-recursion/NOTES.md) | 3 |
+| 08 | Trees & BSTs | [Notes](08-trees/NOTES.md) | 11 |
+| 09 | Heaps / Priority Queues | [Notes](09-heaps/NOTES.md) | 3 |
 
-**Total: 47 problems across 11 topics**
+**Total: 47 problems across 10 topics**
 
 ## Cross-Cutting Patterns
 
