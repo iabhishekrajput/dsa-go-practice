@@ -35,7 +35,7 @@
 ### Phase 3: Searching & Sorting (Week 5)
 - [x] Binary Search — beyond sorted arrays
 - [x] Sorting algorithms & when to use what
-- [ ] Practice problems
+- [x] Practice problems
 
 ### Phase 4: Graphs (Week 6-7)
 - [ ] Graph representation & traversals
@@ -224,4 +224,13 @@
   51. Quick Sort (Hoare partition + random pivot — first try with fixed pivot, added randomization, hit swap-after-move bug, fixed by swapping pivot to low first)
   52. Sort Colors / Dutch National Flag (three-pointer single pass — solved first try)
   53. Merge Intervals (custom quick sort + merge scan — merge loop had 4 bugs: dropped last interval, strict vs >=, bounds check order, overwrite vs max)
-- **Notes:** Built quick sort from scratch with random pivot. Sort Colors was clean — three-pointer partition is elegant. Merge Intervals tested both sorting and scanning — wrote custom quick sort for intervals instead of using sort.Slice. Phase 3 Searching & Sorting complete!
+- **Notes:** Built quick sort from scratch with random pivot. Sort Colors was clean — three-pointer partition is elegant. Merge Intervals tested both sorting and scanning — wrote custom quick sort for intervals instead of using sort.Slice.
+
+### Day 22 — 2026-04-18 — Phase 3 Practice: Search + Sort Remix
+- **Status:** COMPLETED
+- **Topics:** Modified binary search, binary search on unsorted invariants, quickselect (partition reuse)
+- **Problems solved:** 3/3
+  54. Search in Rotated Sorted Array (identify sorted half, check target range — solved first try, recursive then refactored to iterative)
+  55. Find Peak Element (binary search on slope direction — solved first try, tight iterative solution with `right = mid`)
+  56. Kth Largest Element / Quickselect (partition + one-sided recursion targeting index `n-k` — solved first try)
+- **Notes:** All three first-try solves. **24-problem first-try streak** across Days 15-22. Key leap: binary search works anywhere you have an invariant that lets you discard half — not just on sorted arrays. Quickselect reused partition logic from Day 21 quick sort — showed the partition primitive is more broadly useful than "just for sorting". Phase 3 Searching & Sorting fully complete!
