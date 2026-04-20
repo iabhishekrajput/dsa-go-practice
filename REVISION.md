@@ -16,10 +16,11 @@ Quick-reference notes for interview prep, organized by topic. Each file has: how
 | 07 | Recursion | [Notes](07-recursion/NOTES.md) | 3 |
 | 08 | Trees & BSTs | [Notes](08-trees/NOTES.md) | 11 |
 | 09 | Heaps / Priority Queues | [Notes](09-heaps/NOTES.md) | 3 |
-| 10 | Binary Search | [Notes](10-binarysearch/NOTES.md) | 3 |
+| 10 | Binary Search | [Notes](10-binarysearch/NOTES.md) | 6 |
 | 11 | Sorting | [Notes](11-sorting/NOTES.md) | 3 |
+| 12 | Graphs | [Notes](12-graphs/NOTES.md) | 3 |
 
-**Total: 53 problems across 12 topics**
+**Total: 59 problems across 13 topics**
 
 ## Cross-Cutting Patterns
 
@@ -37,3 +38,6 @@ Patterns that appear across multiple topics — recognizing these is the real in
 | Postorder aggregation | Trees (depth, size), Recursion (children answer before parent) |
 | Top-K with heap | Heaps (kth largest, top K frequent) — min-heap of size K as gatekeeper |
 | Frequency map + heap | Hash Maps (count) + Heaps (select) — O(n log k) vs O(n log n) sort |
+| Visited set | Graphs (cycles), Grid (flood fill) — correctness, not optimization |
+| Traversal + memoization map | Graphs (clone), DP (future topics) — cache results keyed on input identity |
+| Byte vs int literals | Strings (Decode String), Graphs (Number of Islands) — always use `'1'` for byte comparisons |

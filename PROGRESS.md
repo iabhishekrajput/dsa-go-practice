@@ -38,8 +38,8 @@
 - [x] Practice problems
 
 ### Phase 4: Graphs (Week 6-7)
-- [ ] Graph representation & traversals
-- [ ] BFS & DFS on graphs
+- [x] Graph representation & traversals
+- [x] BFS & DFS on graphs
 - [ ] Shortest path algorithms
 - [ ] Topological sort
 - [ ] Practice problems
@@ -234,3 +234,12 @@
   55. Find Peak Element (binary search on slope direction — solved first try, tight iterative solution with `right = mid`)
   56. Kth Largest Element / Quickselect (partition + one-sided recursion targeting index `n-k` — solved first try)
 - **Notes:** All three first-try solves. **24-problem first-try streak** across Days 15-22. Key leap: binary search works anywhere you have an invariant that lets you discard half — not just on sorted arrays. Quickselect reused partition logic from Day 21 quick sort — showed the partition primitive is more broadly useful than "just for sorting". Phase 3 Searching & Sorting fully complete!
+
+### Day 23 — 2026-04-20 — Graphs: Traversal Fundamentals
+- **Status:** COMPLETED
+- **Topics:** Graph representations (adjacency list vs matrix), directed/undirected, cycles, BFS with visited tracking, grid as implicit graph, clone with memoization
+- **Problems solved:** 3/3
+  57. Number of Connected Components (build adj list from edges, outer loop + BFS per unvisited node — solved first try, extended 25-problem streak)
+  58. Number of Islands (grid flood-fill BFS — streak broken by byte vs int bug: `grid[r][c] == 1` should be `grid[r][c] == '1'`; also empty-grid panic on `grid[0]`)
+  59. Clone Graph (recursive DFS with `map[int]*Node` memoization — solved first try, correct ordering of check/allocate/register/recurse)
+- **Notes:** 25-problem first-try streak broken on #58. **Lesson: byte vs int literals recur** — second time hitting this (Day 13 Decode String was first). In `[][]byte`, comparing against `'1'` (byte=49) not `1` is critical; Go won't warn you. Also: `len(grid[0])` on empty grid panics — guard outer length first. Clone Graph order (check map → allocate → register → recurse) is non-negotiable for cycle handling. Graph traversal fundamentals solid — ready for weighted/directed next.
